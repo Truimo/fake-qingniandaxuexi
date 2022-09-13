@@ -19,6 +19,7 @@ new Vue({
     methods: {
         showIt: function (link) {
             const that = this
+            link = encodeURIComponent(link)
             axios.get(`/api/item?url=${link}`).then(function (response) {
                 if (response.status === 200 && response.data.code === 0) {
                     document.title = response.data.data.title
