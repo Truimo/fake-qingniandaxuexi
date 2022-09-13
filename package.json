@@ -9,6 +9,6 @@
   "author": "Truimo",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^17.1.3"
+    "express": "^4.18.1"
   }
 }
