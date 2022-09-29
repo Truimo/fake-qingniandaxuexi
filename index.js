@@ -11,7 +11,7 @@ apiRouter.get('/list', function (req, res) {
             page: 1
         },
         headers: {
-            'Cookie': ''
+            'Cookie': 'sessionid=989F93FB95CD3576BDD6458613127CC8; JSESSIONID=02D79158D13D557DCAD595BD0CE64C1F'
         }
     }, function (err, httpResponse, body) {
         if (httpResponse.statusCode === 200) {
